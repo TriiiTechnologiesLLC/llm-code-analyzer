@@ -159,4 +159,3 @@ This project is licensed under the MIT License.
 Feel free to fork this repository and submit pull requests. Key areas for improvement include:
 *   Supporting more compression formats (`.tar.gz`, `.rar`).
 *   Refining LLM prompts for specific language standards.
-```
