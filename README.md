@@ -60,7 +60,7 @@ Edit the `.env` file in the project root to customize behavior.
 | Variable | Description | Default |
 | :--- | :--- | :--- |
 | `OLLAMA_HOST` | URL of the Ollama API server | `http://localhost:11434` |
-| `OLLAMA_MODEL` | The LLM model to use | `llama3` |
+| `OLLAMA_MODEL` | The LLM model to use | `gpt-oss:20b` |
 | `MAX_FILE_SIZE_KB` | Max size (KB) before chunking is triggered | `100` |
 | `CHUNK_SIZE_KB` | Size limit per chunk (KB) | `40` |
 | `ALLOWED_EXTENSIONS` | Comma-separated list of allowed file extensions | `.js,.jsx,.ts,.php...` |
@@ -94,7 +94,7 @@ node zip-code-analyzer.js /path/to/target-archive.zip
 ```text
 🚀 Zip Code Analyzer Initialized
 📂 Target: my-project.zip
-🤖 Model: llama3
+🤖 Model: gpt-oss:20b
 📄 Reporting: Enabled
 📏 Chunk Size: 40KB
 ━━━━━...
