@@ -156,6 +156,8 @@ This project is licensed under the MIT License.
 
 ## 🤝 Contributing
 
+Stars are greatly appreciated!
+
 Feel free to fork this repository and submit pull requests. Key areas for improvement include:
 *   Supporting more compression formats (`.tar.gz`, `.rar`).
 *   Refining LLM prompts for specific language standards.
